@@ -71,7 +71,7 @@ nav ul li a:link {
 
 /* visited link */
 nav ul li a:visited {
-  color: #868383;
+  color: white;
 }
 
 /* mouse over link */
@@ -316,7 +316,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #615e5e;
+  color: #868383;
 }
 
 /* mouse over link */
