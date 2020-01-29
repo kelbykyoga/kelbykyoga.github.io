@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Major+Mono+Display&display=swap');
+
+/*Font Color: #868383 Gray
+text
+font-family: 'Anonymous Pro', monospace;
+Headers of all kinds
+font-family: 'Major Mono Display', monospace;*/
+html {
+  font-family: 'Anonymous Pro', monospace;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Major Mono Display', monospace;
+}
+
+header {
+  background-image: url("img/kelby-header.jpg");
+  background-position: top center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  flex-flow: wrap;
+  align-content: flex-start;
+  color: white;
+  height: 95vh;
+  width: 100vw;
+  margin: 0 0 5vh 0;
+
+}
+
+header h1{
+  height: 10vh;
+  width: 100vw;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.light-header{
+  font-weight: 250;
+}
+
+#default-nav{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#default-nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+#default-nav ul li{
+  padding: 1.5rem;
+  font-size: 1.75rem;
+
+}
+
+nav ul li a:link {
+  color: white;
+}
+
+/* visited link */
+nav ul li a:visited {
+  color: #868383;
+}
+
+/* mouse over link */
+nav ul li a:hover {
+  color: #333131;
+}
+
+/* selected link */
+nav ul li a:active {
+  color: #868383;
+} 
+
+.show{
+  opacity: 1;
+  transition: opacity .14s ease-in-out,visibility 0s 0s linear,top .14s ease-in-out;
+
+}
+
+.hide{
+  opacity: 0;
+  transition: opacity .14s ease-in-out,visibility 0s 0s linear,top .14s ease-in-out;
+
+}
+
+#fixed-nav {
+  height: 5vh;
+  width: 100vw;
+  justify-content: center;
+  position: fixed;
+  top:0;
+  color: white;
+  display: none;
+}
+
+#fixed-nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100vw;
+  height: 5vh;
+  padding: 0 12.5vw 0 12.5vw;
+  margin: 0;
+  background-color: #739596;
+}
+
+#fixed-nav ul li{
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  height: 25vh;
+  align-self: center;
+  border-radius: 50%;
+  display: inline;
+}
+
+body {
+  width: 100vw;
+  height: 100vh; 
+  margin: 0;
+}
+
+.div{
+  display:none;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-flow: wrap column;
+}
+
+main section {
+  padding: 2.5vh 0 0 0;
+}
+
+main section section {
+  height: 94vh;
+}
+
+main section section section{
+  display:flex;
+  margin: 0;
+}
+
+main section section section p{
+/*  display: flex;
+  flex-wrap: wrap;*/
+  font-size: 1vw;
+/*  align-content: center;
+  margin: 0;*/
+}
+
+.content{
+  margin: 0 12.5vw 0 12.5vw;  
+  width: 62.5vw;
+}
+
+main .odd{
+  background-color: #F0F0F0;
+  width: 100vw;
+}
+
+#about section section p{
+  margin: 0 0 0 3vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+#about-img{
+  height: 80vh;
+}
+
+.specific-sched{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: space-between;
+  height: 60vh;
+  margin: 10vh 2vw;
+}
+
+.specific-sched h3{
+  width: 27vw;
+  text-align: center;
+  }
+
+#rocks-img{
+  height: 80vh;
+}
+
+.session{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  height: 75vh;
+}
+
+.stack{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  height: 25vh;
+}
+
+/*#flower-img{
+  background-image: url("img/flower.jpg");
+  background-position: top center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 20vw;
+  width: 100vw;
+}*/
+
+#resources section section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#resources section section h3{
+  margin: 2vh 0;
+  width: 62.5vw;
+  text-align: center;
+}
+
+#sunset-img{
+  width: 25vw;
+}
+
+#contact section section{
+  display:flex;
+  flex-flow: column wrap;
+  height: 80vh;
+}
+
+.form{
+  justify-content: center;
+  align-items: center;
+  margin: 0 3vw;
+}
+
+form{
+  display:flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  margin: 2vw  0;
+  width: 25vw;
+  height: 40vh;
+}
+
+input {
+  height: 30vh;
+  width: 25vw;
+  margin: 0 0 1.5vh 0;
+}
+
+input::placeholder, textarea::placeholder {
+  font-size: 1rem;
+}
+
+input[type=submit]{
+  background-color: #739596;
+  color: white;
+  padding: 1vh 10vw;
+  text-decoration: none;
+  border-radius: 5vw;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+textarea{
+  width: 25vw;
+  height: 100vh;
+  resize: vertical;
+  overflow: auto;
+  margin: 0 0 1.5vh 0;
+}
+
+#sign-img{
+  height: 80vh;
+}
+
+h2{
+  font-size: 1.5em;
+  width: 62.5vw;
+  margin: 3vh 0 3vh 0;
+}
+
+a:link {
+  color: #868383;
+}
+
+/* visited link */
+a:visited {
+  color: #615e5e;
+}
+
+/* mouse over link */
+a:hover {
+  color: #333131;
+}
+
+/* selected link */
+a:active {
+  color: #868383;
+} 
+
+footer section{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: #F0F0F0;
+  width: 100vw;
+}
+
+.footer-links{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  height: 10vh;
+  padding: 1.5rem;
+}

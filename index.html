@@ -3,13 +3,118 @@
   <head>
     <meta charset="utf-8">
     <title>Kelby Kunz Yoga</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" media="screen" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jace Gummersall">
-    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
   </head>
   <body>
-  <p>Kelby's Future Site</p>
+    <header id="home">
+      <h1> <span class="light-header">kelby kunz</span> yoga</h1>
+      <nav id="default-nav">
+        <ul>
+          <li><a href="#home" target="_top">HOME</a></li>
+          <li><a href="#about" target="_top">ABOUT</a></li>
+          <li><a href="#schedule" target="_top">SCHEDULE</a></li>
+          <li><a href="#offerings" target="_top">OFFERINGS</a></li>
+          <li><a href="#resources" target="_top">RESOURCES</a></li>
+          <li><a href="#contact" target="_top">CONTACT</a></li>
+        </ul>
+      </nav>
+    <nav id="fixed-nav" class="hide">
+      <ul>
+        <li><a href="#home" target="_top">HOME</a></li>
+        <li><a href="#about" target="_top">ABOUT</a></li>
+        <li><a href="#schedule" target="_top">SCHEDULE</a></li>
+        <li><a href="#offerings" target="_top">OFFERINGS</a></li>
+        <li><a href="#resources" target="_top">RESOURCES</a></li>
+        <li><a href="#contact" target="_top">CONTACT</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <section id="about">
+        <section class="content">
+          <h2>about</h2>
+          <section>
+            <img id="about-img" src="img/kelby-about.jpg" alt="Kelby Gummersall">
+            <p>My name is Kelby Kunz! I am a 200 RYT certified yoga instructor, dedicated to integrating mindfulness, creativity and self-love to the practice of yoga.</br></br>I have been regularly practicing yoga since 2016, and was first drawn to yoga as I found it provided balance in mind, body and spirit. I enjoyed the physical practice and challenge that asana can bring, all while loving the mental and emotional clarity that came through its meditative nature. I completed my 200-hour certification with Ashley Colloton Yoga through Mountainside fitness in Phoenix, AZ, in May 2017 and have been teaching ever since.</br></br>I am trained in and instruct several styles of yoga including, Ashtanga, Vinyasa Flow, All Levels, Beginner, Power, Yin, and Restorative. I strive to bring encouragement, compassion, creativity, and intention into all of my classes and feel a true joy in guiding others to a greater sense of peace through yoga.</br></br>Growing up in the Pacific Northwest instilled a love for camping, hiking, and all things outdoors. I have an undeniable sweet tooth and a love for learning. Currently, I am located in Phoenix, AZ with my husband, daughter and chocolate lab.</br></br>My passion is to empower students to be their best self, live authentically, and find peace and contentment.</p>
+          </section>
+        </section>
+      </section>
+      <section id="schedule" class="odd">
+        <section class="content">
+          <h2>schedule</h2>
+           <section class="vertical-center">
+            <section class="specific-sched">
+              <h3>group classes</h3>
+              <p>Each week, you can find Kelby at these times and places:</br></br><strong>Monday 6:45 pm – Mountainside Fitness, Happy Valley - Yin</strong></br></br><strong>Thursday 7:00 pm Mountainside Fitness, Desert Ridge – Yin </strong></p>
+              <p>Contact&nbsp;<a href="mailto: kelbykyoga@gmail.com">kelbykyoga@gmail.com</a>&nbsp;for guest passes today!</p>
+              <p>Follow us for schedule changes and special event updates</p>
+            </section>
+            <img id="rocks-img" src="img/rocks.jpg" alt="Staked Stones">
+          </section>
+        </section>
+      </section>
+      <section id="offerings">
+        <section class="content">
+          <h2>offerings</h2>
+          <section class="session">
+            <section class="stack">
+              <h3>private classes</h3>
+              <p>SCHEDULE YOUR OWN • 60 OR 90 MINUTE SESSION</br></br>Kelby offers a customized yoga session complete with personalized written follow up based on your specific needs.  Private classes can be purchased as a single session or through a bundle.  If you would like to schedule a time and or inquire about any of our services, please email Kelby at <a href="mailto: kelbykyoga@gmail.com">kelbykyoga@gmail.com</a>.</p>
+            </section>
+            <section class="stack">
+              <h3>small group classes</h3>
+              <p>SCHEDULE YOUR OWN • 60 OR 90 MINUTE SESSION (2-5 participants)</br></br>Kelby offers small group yoga sessions for parties of 2-5 participants. Small group classes can be purchased as a single session or through a bundle.  If you would like to schedule a time and or inquire about any of our services, please email Kelby at <a href="mailto: kelbykyoga@gmail.com">kelbykyoga@gmail.com</a>.</p>
+            </section>
+            <section class="stack">
+              <h3>large groups/events</h3>
+              <p>Kelby will travel to you to create a custom experience at your venue. Sky is the limit! Contact us today for more information at <a href="mailto: kelbykyoga@gmail.com">kelbykyoga@gmail.com</a>.</p>
+            </section>
+          </section>
+        </section>
+<!--         <section id="flower-img"></section>
+ -->      </section>
+      <section id="resources" class="odd">
+        <section class="content">
+          <h2>resources</h2>
+          <section>
+            <h3>check back for online resources coming soon!</h3>
+            <img id="sunset-img" src="img/sunset.jpg" alt="Sunset">
+          </section>
+        </section>
+      </section>
+      <section id="contact">
+        <section class="content">
+          <h2>contact</h2>
+          <section>
+            <img id="sign-img" src="img/sign.jpg" alt="Good Vibes Only Sign">
+            <section class="form">
+              <p>Please reach out with any questions, comments, or just a hello!</p>
+              <form action="/action_page.php">
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <textarea id="comments" placeholder="Comments" name="comment" rows="10" cols="30"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+              <img class="logo" src="img/kelby-k-yoga.png">
+            </section>
+          </section>
+        </section>
+      </section>
+  </main>
+  <footer class="odd">
+    <section>
+      <h3>check us out on</h3>
+      <ul class="footer-links">
+        <li><a href="https://www.instagram.com/kelbyk.yoga/" target="_blank"><img src="img/instagram.png" alt="" class="icon"></a></li>
+        <li><a href="https://www.facebook.com/kelby.g.kunz" target="_blank"><img src="img/facebook.png" alt="" class="icon"></a></li>
+        <li><a href="https://www.youtube.com/user/kgummy6" target="_blank"><img src="img/youtube.png" alt="" class="icon"></a></li>
+      </ul>
+    </section>
+  </footer>
   </body>
 </html>
