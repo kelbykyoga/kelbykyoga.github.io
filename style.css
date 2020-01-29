@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Major+Mono+Display&display=swap');
 
 /*Font Color: #868383 Gray
 text
@@ -6,7 +6,8 @@ font-family: 'Anonymous Pro', monospace;
 Headers of all kinds
 font-family: 'Major Mono Display', monospace;*/
 html {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Roboto', sans-serif;
+  color: #696969;
   width: 100vw;
   height: 100vh;
   background: white;
@@ -237,7 +238,7 @@ main .odd{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-content: flex-start;
 }
 
 #resources section section h3{
@@ -247,7 +248,7 @@ main .odd{
 }
 
 #sunset-img{
-  width: 25vw;
+  width: 45vh;
 }
 
 #contact section section{
