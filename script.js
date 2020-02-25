@@ -32,3 +32,12 @@ function removeClass(element, name) {
     element.className = arr;
   }
 }
+
+function mobile_menu(){
+  var list = document.getElementById("mobile-menu-items");
+  if(list.style.right === "-50vw"){
+    list.style.right = "0";
+  }else{
+    list.style.right = "-50vw";
+  }
+}

@@ -340,9 +340,171 @@ footer section{
   list-style-type: none;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 .icon{
   height: 10vh;
   padding: 1.5rem;
 }
+
+.mobile-hide{
+  display: flex;
+}
+
+.mobile-show{
+  display:none;
+}
+
+@media (orientation: portrait) { 
+
+  .mobile-hide{
+    display: none !important;
+  }
+
+  .mobile-show{
+    display: flex;
+  }
+
+  #about-img{
+    display:none;
+  }
+
+  #rocks-img{
+    display:none;
+  }
+
+  #sunset-img{
+    display: none;
+  }
+
+  #sign-img{
+    display:none;
+  }
+
+  #mobile-nav-menu{
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: #739596;
+    right: 0;
+    top: 0;
+  }
+
+  #mobile-nav-menu a {
+    color: white;
+    padding: 0 5vw 0 0;
+    font-size: 10vw;
+    align-self: flex-end;
+    margin: -0.5vh 0 0 0;
+  }
+
+  #mobile-nav-menu ul {
+    list-style-type: none;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+    background-color: #739596;
+}
+
+  #mobile-menu-items{
+    position: fixed;
+    right: -50vw;
+    top: 4.98vh;
+    width: 50vw;
+    margin: 0;
+    border-radius: 0 0 0 2vw;
+    transition: right .6s ease-in-out,visibility 0s 0s linear;
+
+  }
+
+  #mobile-nav-menu ul li {
+    padding: 0;
+    width: 100%;
+    margin: 1vh;
+    text-align: center;
+/*    border-style: solid;
+    border-top-width:.5vw;
+    border-bottom-width:.5vw;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-color: white;*/
+}
+  #mobile-nav-menu ul li a {
+    font-size: 5vw;
+    padding: 0;
+  }
+
+  #mobile-nav-menu ul li a:link {
+    color: white;
+  }
+
+  /* visited link */
+  #mobile-nav-menu ul li a:visited {
+    color: white;
+  }
+
+  /* mouse over link */
+  #mobile-nav-menu ul li a:hover {
+    color: #333131;
+  }
+
+  /* selected link */
+  #mobile-nav-menu ul li a:active {
+    color: #739596;
+    background-color: white
+  } 
+
+  #fixed-nav {
+    height: 5vh;
+    width: 100vw;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    color: white;
+    display: flex;
+  }
+
+  #fixed-nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100vw;
+    height: 5vh;
+    padding: 0 12.5vw 0 12.5vw;
+    margin: 0;
+    background-color: #739596;
+  }
+
+  #fixed-nav ul li{
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  main section section section p {
+    font-size: 3.6vw;
+  }
+
+  .icon{
+  height: 10vw;
+  padding: 1rem;
+  }
+
+}
+
+
+
+
