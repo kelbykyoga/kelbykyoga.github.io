@@ -507,16 +507,11 @@ footer section{
 
 @media (orientation: landscape) and (max-height: 500px)  {
   #fixed-nav ul {
-      list-style-type: none;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: flex-start;
-      width: 100vw;
       height: 10vh;
-      padding: 0 12.5vw 0 12.5vw;
-      margin: 0;
-      background-color: #19627a;
+  }
+
+  #fixed-nav ul li{
+      font-size: .75rem;
   }
 }
 
