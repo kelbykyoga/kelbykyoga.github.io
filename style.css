@@ -398,9 +398,9 @@ footer section{
   #mobile-nav-menu a {
     color: white;
     padding: 0 5vw 0 0;
-    font-size: 10vw;
+    font-size: 5vh;
     align-self: flex-end;
-    margin: -0.5vh 0 0 0;
+    margin: 0;
   }
 
   #mobile-nav-menu ul {
@@ -505,6 +505,20 @@ footer section{
 
 }
 
+@media (orientation: landscape) and (max-height: 500px)  {
+  #fixed-nav ul {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100vw;
+      height: 10vh;
+      padding: 0 12.5vw 0 12.5vw;
+      margin: 0;
+      background-color: #19627a;
+  }
+}
 
 
 
