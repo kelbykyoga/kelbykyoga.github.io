@@ -513,6 +513,10 @@ footer section{
   #fixed-nav ul li{
       font-size: .75rem;
   }
+
+  #sunset-img{
+    display: none;
+  }
 }
 
 
